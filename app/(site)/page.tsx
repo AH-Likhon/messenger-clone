@@ -1,7 +1,7 @@
 import Image from "next/image";
 import AuthForm from "./components/AuthForm";
 
-export default function Home() {
+const Auth = () => {
   return (
     <div
       className="
@@ -47,4 +47,6 @@ export default function Home() {
       <AuthForm />
     </div>
   );
-}
+};
+
+export default Auth;
